@@ -1,0 +1,5 @@
+#array
+#!/bin/bash
+echo "enternames :"
+read -a names 
+echo "names : ${names[0]}, ${names[1]} "

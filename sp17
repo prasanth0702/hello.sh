@@ -1,0 +1,22 @@
+# readin file using while loop
+#!/bin/bash
+while read p
+do 
+  echo $p
+done < sp
+
+
+
+#!/bin/bash
+cat sp | while read p
+#the output of cat command is the input of the while command
+do 
+  echo $p
+done < sp
+
+
+#!/bin/bash
+while IFS= read -r line
+do 
+  echo $line
+done < sp

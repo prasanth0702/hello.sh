@@ -1,0 +1,12 @@
+#if elif then else
+#!/bin/bash
+word=a
+if [[ $word == "b" ]]
+then 
+echo"codition is true"
+elif [[ $word == "a" ]]
+then
+echo "codition is true"
+else
+echo"codition is false"
+fi

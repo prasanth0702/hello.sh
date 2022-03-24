@@ -1,0 +1,25 @@
+#while loop
+#!/bin/bash
+n=1
+while [ $n -le 10 ]
+do
+   echo "$n"
+   n=$(( n+1 ))
+done   
+#!/bin/bash
+n=1
+while [ $n -le 10 ]
+do
+   echo "$n"
+   n=$(( n+1 ))
+   sleep 1
+   # it prints after 1sec
+done   
+#!/bin/bash
+n=1
+while [ $n -le 3 ]
+do
+   echo "$n"
+   n=$(( n+1 ))
+   powershell &
+done   

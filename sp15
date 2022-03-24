@@ -1,0 +1,23 @@
+#Array and variable
+#!/bin/bash
+os=( 'windows' 'linux' 'ubuntu')
+os[3]='mac'
+#it adds the new 
+os[2]='redhat'
+#it replaces the 2nd index variable
+unset os[3]
+#it deletes the 3rd index varaible
+echo "${os[@]}"
+#it gives all os names
+echo "${os[0]}"
+#it gives zeroth index value
+echo "${!os[@]}"
+#it gives the index values
+echo "${#os[@]}"
+#it gives the length 
+string=prgrjgroij
+echo "${string[@]}"
+#it converts string as an array
+
+
+

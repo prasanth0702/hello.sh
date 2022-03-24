@@ -1,0 +1,16 @@
+# case statement
+#!/bin/bash
+vehicle=$1
+case $vehicle in
+   "car" )
+        echo "rent of $vehicle is 100 dollar " ;;
+        
+   "jeep" )
+         echo "rent of $vehicle 20 dollar " ;;
+          
+         * )
+        echo " unknown vehicle " ;;
+        
+esac
+
+ 

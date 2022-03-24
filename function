@@ -1,0 +1,10 @@
+#!/bin/bash
+function ps (){
+    echo "ps"
+
+}
+
+quit(){
+ exit
+}
+ps

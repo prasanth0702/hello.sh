@@ -1,0 +1,14 @@
+#!/bin/bash -x
+
+
+echo "pid is $$ "
+#pid=prcoss id
+
+#!/bin/bash
+echo "pid is $$ "
+while (( count <10 ))
+do
+   sleep 5
+   (( count ++ ))
+   echo "$count"
+done

@@ -1,0 +1,25 @@
+#!/bin/bash
+select name in ps pk spr
+do
+  echo "$name selected"
+done
+
+#!/bin/bash
+select name in ps pk spr
+do
+  case $name in
+  ps)
+  echo ps selected
+  ;;
+   pk)
+  echo pk selected
+  ;;
+ spr)
+  echo spr selected
+  ;;
+  *)
+  echo error selected
+  esac
+done
+
+

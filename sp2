@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Entername : "
+read name
+echo "Enteredname : $name "
+
+# for single name  

@@ -1,0 +1,10 @@
+#Floating point arthematic operations
+#!/bin/bash
+num1=7.5
+num2=2.5
+echo "7.5+2.5" | backslash
+
+#for squareroot of num
+num=27
+echo"scale=2 : sqrt ( $num ) | bs
+

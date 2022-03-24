@@ -1,0 +1,18 @@
+# file test operator
+#!/bin/bash
+echo -e "enter the file name :\c"
+read file_name
+if [ -e $file_name  ]
+then
+echo "$file_name found"
+else
+echo "$file_name not found"
+fi
+# -e enables the backslash
+# :/c keep th ecursor in the same line after end of the echo command
+# -f file is exist regular file file or not
+# -d to check directory
+# 2types of files 
+#1)Block special file: -b contains binary files (images , videos)
+#2)character special file: -c contains  (text,data)
+#-s file is empty or not

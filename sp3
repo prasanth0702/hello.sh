@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "enternames : "
+read name1 name2 name3
+echo "$name1 , $name2 , $name3"
+#multiple lines

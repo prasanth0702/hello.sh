@@ -1,0 +1,18 @@
+# patern in case statement
+#!/bin/bash
+echo -e "enter the some character :/c "
+read value
+case $value in
+[a-z] )
+   echo "user  enter the $value a to z " ;;
+[A-Z] )
+    echo "user  enter the $value A to Z " ;;
+[0-9] )
+    echo "user  enter the $value 0 to 9" ;;  
+? )  
+     echo "user  enter the $value special character " ;;
+     # ? tells that it stores only one special character
+
+* ) 
+   echo "user  unknown input " ;;
+esac 
